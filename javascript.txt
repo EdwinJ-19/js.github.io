@@ -1,0 +1,73 @@
+javascript:
+created by brendon eich at netscape in 1995.
+standard is ECMA script manage by ECMA international and 
+mozilla.
+it is OOP (object oriented language)
+it is prototype based language
+
+writing into an HTML element, using innerHTML()
+document.getElementId("<id name from html>").innerHTML=<write something to execute the output>
+document.write("I know JS");
+console.log("NOw i have learn OOPS using DOM");
+window.alert("May I Help you?")
+
+
+comments are used for following two reasons:
+single line comment (//) and multi line comment (/**/)
+
+javascript have two types to execute that is internal file and external file.
+
+VARIABLE: 
+it is like storage and its stores the value in machine.
+variable can be changed but the name will be same.
+it can be declared by var.
+it is a global
+
+LET:
+similarly to variable.
+it is local 
+
+dataype for js:
+1) number: var length = 16;
+2) string: var lastName = "JOhnson";
+3) object: var x ={firstName:"John",lastName:"Doe"}
+
+dynamic typing: it means that the same variable can be used to hold different data types:
+
+example: 
+1) var x; variable is undefined
+2) var x = 6; variable is integer
+3) var x = "John"; variable is string
+
+primitive datatype: it is a single simple data value with no additional properties and methods.
+type of primitive: string, boolean, null, integer, undefined.
+
+number datatype: it can be written with or without.
+
+example: 
+var x1=34.00; written with decimal
+var x2= 34; written without decimal
+
+var y = 123e5; 123 power of 5
+var z = 3e5; 3 power of 5
+
+NaN (not a number): it is a property of the global object. 
+
+string: it is used to storing and manipulative text.
+
+string concantation: concat() joins two or more strings.
+example: 
+var t1 = "Hello";
+var t2 = "World";
+var t3 = t1.concat("",t2);
+
+var text = "Hello"+""+"World"
+var text = "Hello".concat("","World!");
+
+constant: like var, constants also store value in a memory. its a volatile (it cannot be change the value).
+
+example: 
+const pi=3.142;
+console.log("Value of pi is" +pi);
+
+arithmetic operators: add(+),substraction(-), multiplication(*), division (/);
