@@ -71,3 +71,15 @@ const pi=3.142;
 console.log("Value of pi is" +pi);
 
 arithmetic operators: add(+),substraction(-), multiplication(*), division (/);
+
+
+types of statement:
+1) sequence statement
+2) selection statemenet
+	-condition
+3) iteration statement
+if control structures: control the flow of the script, control which portion of the script should run and how many times.
+
+if(condition){
+//code in this block will execute if the condition is true otherwise get ignored.
+}
