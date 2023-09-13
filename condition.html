@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition</title>
+</head>
+<body>
+    <script>
+        //calculator
+
+        // let a = parseInt(prompt("enter the value a"));
+        // let b = parseInt(prompt("enter the value b"));
+        // let choice = prompt("Enter the symbol: ");
+        // if(choice == "+"){
+        //     document.write("Value of addition: ",a+b);
+        // }
+        // if(choice == "-"){
+        //     document.write("Value of substraction: ",a-b);
+        // }
+        // if(choice == "*"){
+        //     document.write("Value of mulitplication: ",a*b);
+        // }
+        // if(choice == "/"){
+        //     document.write("Value of Division: ",a/b);
+        // }
+        // else{
+        //     document.write("You have not given choice!");
+        // }
+
+        let a = parseInt(prompt("Enter the value of a"));
+        let b = parseInt(prompt("Enter the value of b"));
+        let c = prompt("Enter the symbol required for greater and lesser:");
+        if(c == ">"){
+            if (a>b){
+                document.write("a is greatest");
+            }
+            else {
+                document.write("b is greatest");
+            }
+        }
+        if (c == "<"){
+            if (a<b){
+                document.write("a is lesser");
+            }
+            else{
+                document.write("b is lesser");
+            }
+        }
+        if (c == ">="){
+            if (a>=b){
+                if(a>b){
+                    document.write("a is greater or equal to b");
+                }
+                else{
+                    document.write("a is not greater or equal to b ");
+                }
+            }
+            else {
+                document.write("b is greatest or equal to a");
+            }
+        }
+        if (c == "<="){
+            if (a<=b){
+                if(a<b){
+                    document.write("b is lesser or equal to a");
+                }
+                else{
+                    document.write("b is not lesser or equal to a");
+                }
+            }
+            else{
+                document.write("a is lesser or equal to b");
+            }
+        }
+    </script>
+</body>
+</html>
