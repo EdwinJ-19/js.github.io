@@ -1,0 +1,14 @@
+program is divide into the methods which can be reuse.
+can be reusability.
+
+it can be less code
+
+functions can be two types:
+(1) inbuilt function: it means the pre-defined library in the javascript that is (document,write,console.log etc).
+(2) user define function: it means the user makes their own defined values in the javascript. during the statment 
+there are two statements that is function.development() and function.call().
+
+during the javascript, in function we need to mentioned the expression at the deployment that is 
+function<any name>P{
+    <block of statement>
+}

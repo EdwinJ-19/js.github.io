@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+</head>
+<body>
+    <script>
+        let marks = parseInt(prompt("Enter the Marks: "));
+        let choice = parseInt(prompt("Enter the choice: "))
+        var grade;
+
+        switch(marks){
+            case 1: 
+            if(marks<=100){
+                grade="A";
+            }
+                break;
+
+            case 2:
+                if(marks<=70){
+                grade="B";
+            }
+                break;
+        
+            case 3: 
+                if(marks<=60){
+                grade="C";
+            }
+                break;
+
+            case 4:
+                if(marks<=40){
+                grade="D";
+            }
+                break;
+        }
+        document.write(grade);
+    </script>
+</body>
+</html>

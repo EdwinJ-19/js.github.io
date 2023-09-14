@@ -1,0 +1,10 @@
+there are two tpyes of loop in js:
+1) for while
+2) do.. while
+3) for -in
+
+repition for loop in js.
+
+for loop: start, end and how many steps to loop.
+
+for(i=1;i<=10;i++) //for(exp1;exp2;exp3) [;=statement termination]

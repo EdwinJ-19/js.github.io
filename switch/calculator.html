@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+    let a=parseInt(prompt("Enter the value of a"));
+        let b=parseInt(prompt("Enter the value of b"));   
+        var choice = parseInt(prompt("Enter the Choice: "));
+        var result;
+        switch(choice){
+            case 1:
+                result= a+b;
+                break;
+
+            case 2:
+                result= a-b;
+                break;
+
+            case 3:
+                result=a*b;
+                break;
+            
+            case 4:
+                result=a/b;
+                break;
+
+            default:
+                result="NIL";
+        }
+        document.write(result);
+    </script>
+</body>
+</html>

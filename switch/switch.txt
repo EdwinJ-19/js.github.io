@@ -1,0 +1,1 @@
+switch statement is used select one code from multiple expression.
