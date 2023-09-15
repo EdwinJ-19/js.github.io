@@ -1,7 +1,9 @@
 program is divide into the methods which can be reuse.
-can be reusability.
+function is a group of related which perform the particular task.
 
-it can be less code
+advantages:-
+a) can be reusability.
+b) it can be less code
 
 functions can be two types:
 (1) inbuilt function: it means the pre-defined library in the javascript that is (document,write,console.log etc).
